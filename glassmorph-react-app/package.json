@@ -1,0 +1,35 @@
+{
+  "name": "glassmorph-react-app",
+  "version": "1.0.0",
+  "description": "A React application implementing glassmorphism UI design with colorful gradients and animations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^0.24.0",
+    "chart.js": "^3.7.0",
+    "react-chartjs-2": "^3.0.0",
+    "framer-motion": "^4.1.0",
+    "react-bootstrap": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.6.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.27.0"
+  },
+  "keywords": [
+    "react",
+    "glassmorphism",
+    "ui",
+    "design",
+    "charts",
+    "animations"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
