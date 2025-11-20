@@ -121,7 +121,7 @@ function App() {
     setQuery('');
 
     try {
-      const res = await axios.post('http://localhost:8000/api/analyze/', { query: currentQuery });
+      const res = await axios.post('https://estatebot-ai.onrender.com/api/analyze/', { query: currentQuery });
       setMessages(prev => [...prev, {
         sender: 'bot',
         text: res.data.summary,
