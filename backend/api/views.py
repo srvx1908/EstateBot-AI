@@ -6,7 +6,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 # --- CONFIGURATION ---
-GOOGLE_API_KEY = "AIzaSyDp6DNxqgBc11IyyNwdkwjEK3vFmqa1Tkk"
+GOOGLE_API_KEY = os.getenv("YOUR_API_KEY_HERE")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def get_data():
